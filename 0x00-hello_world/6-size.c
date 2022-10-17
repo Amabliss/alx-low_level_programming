@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry
- * Return: 0
+ * Return: 0 if no error, 1 if error
  */
 int main(void)
 {
