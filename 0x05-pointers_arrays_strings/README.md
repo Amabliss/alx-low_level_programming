@@ -1,0 +1,1 @@
+pointers, arreys and strings
