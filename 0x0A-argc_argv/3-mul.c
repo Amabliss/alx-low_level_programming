@@ -1,26 +1,32 @@
-int check_num(char *str)
+#include <stdio.h>
+#include "main.h"
+#include <stdlib.h>
+
+/**
+ * main - multiplies two numbers.
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line arguments.
+ * Return: 0 - success.
+ */
+
+int main(int argc, char *argv[])
 
 {
-	/*Declaring variable*/
-	unsigned int count;
+	int x, y, mul;
 
-	count = 0;
-	while (count < strlen(str)) /*count string*/
-
+	if (argc <= 2)
 	{
-		if (!isdigest(str()) /*check if str there are digit*/
-				{
-				return (0);
-				}
-				count++;
-				}
-				return (1);
-				}
-				/**
-				 * main - print the number of the program
-				 * @argec: count arguements
-				 * @argv: Arguments
-				 * Return: Always 0 (success)
-				 */
+		printf("Error\n");
 
-				int main(int argc, char *argu[])
+		return (1);
+	}
+
+	x = atoi(argv[1]);
+	y = atoi(argv[2]);
+	mul = x * y;
+
+	printf("%d\n", mul);
+
+	return (0);
+
+}
