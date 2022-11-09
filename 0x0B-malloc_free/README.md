@@ -1,0 +1,18 @@
+Answers to malloc tasks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
